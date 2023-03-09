@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-3.jpg"
     },
     {
+      "Id": "E:\\1TI 9 Months\\Project MVC\\Final\\wwwroot\\img\\team\\resume-and-cv.png",
+      "PackagePath": "staticwebassets\\img\\team\\resume-and-cv.png"
+    },
+    {
       "Id": "E:\\1TI 9 Months\\Project MVC\\Final\\wwwroot\\img\\team\\team-1.jpg",
       "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
     },

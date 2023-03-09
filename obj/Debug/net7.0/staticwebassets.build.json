@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3HvqBdKMUPLPt6t4PTGDeJ97Xk5s0PvSXHn53kyAoD4=",
+  "Hash": "nR3dfY71dwszpn6Px5gfNj+zyTAsIzfDpOrH1JO+rPI=",
   "Source": "Final",
   "BasePath": "_content/Final",
   "Mode": "Default",
@@ -508,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\portfolio\\portfolio-details-3.jpg"
+    },
+    {
+      "Identity": "E:\\1TI 9 Months\\Project MVC\\Final\\wwwroot\\img\\team\\resume-and-cv.png",
+      "SourceId": "Final",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\1TI 9 Months\\Project MVC\\Final\\wwwroot\\",
+      "BasePath": "_content/Final",
+      "RelativePath": "img/team/resume-and-cv.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\team\\resume-and-cv.png"
     },
     {
       "Identity": "E:\\1TI 9 Months\\Project MVC\\Final\\wwwroot\\img\\team\\team-1.jpg",

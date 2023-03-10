@@ -586,17 +586,38 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+#submiteit {
+    font-size: 16px;
+    padding: 0 20px;
+    background: #eb5d1e;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+}
+
+#services .services-img {
+    text-align: center;
+}
+
+#services .services-img img {
+    width: 50%;
+}
+
 .services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  margin: 0 0 40px 0;
-  background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
-  border-radius: 15px;
-  text-align: center;
-  border-bottom: 3px solid #fff;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
 }
 
 .services .icon-box:hover {
@@ -630,8 +651,14 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio .portfolio-img{
+    text-align:center;
+}
+#portfolio .portfolio-img img{
+    width:50%;
+}
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .portfolio #portfolio-flters {

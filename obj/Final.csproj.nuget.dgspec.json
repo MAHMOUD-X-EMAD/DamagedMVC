@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\1TI 9 Months\\Project MVC\\Final\\Final.csproj": {}
+    "E:\\ITI\\ITI 9 month courses\\MVC\\Project\\MVC_Project\\Final.csproj": {}
   },
   "projects": {
-    "E:\\1TI 9 Months\\Project MVC\\Final\\Final.csproj": {
+    "E:\\ITI\\ITI 9 month courses\\MVC\\Project\\MVC_Project\\Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1TI 9 Months\\Project MVC\\Final\\Final.csproj",
+        "projectUniqueName": "E:\\ITI\\ITI 9 month courses\\MVC\\Project\\MVC_Project\\Final.csproj",
         "projectName": "Final",
-        "projectPath": "E:\\1TI 9 Months\\Project MVC\\Final\\Final.csproj",
-        "packagesPath": "C:\\Users\\20106\\.nuget\\packages\\",
-        "outputPath": "E:\\1TI 9 Months\\Project MVC\\Final\\obj\\",
+        "projectPath": "E:\\ITI\\ITI 9 month courses\\MVC\\Project\\MVC_Project\\Final.csproj",
+        "packagesPath": "C:\\Users\\menat\\.nuget\\packages\\",
+        "outputPath": "E:\\ITI\\ITI 9 month courses\\MVC\\Project\\MVC_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\20106\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\menat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

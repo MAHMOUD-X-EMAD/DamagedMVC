@@ -1,0 +1,81 @@
+﻿@model Final.Models.Skill
+
+@{
+    ViewData["Title"] = "Skill";
+}
+
+<h1>Skills</h1>
+<hr />
+<div class="row">
+    <div class="col-md-12"style="height:auto" >
+        
+        <form asp-action="Skill" style="">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="d-flex flex-wrap" id="RadioBtn">
+                <div class="col-md-6 flex-wrap">
+                    <div class="form-group col-md-6">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" id="Name" class="form-control" style="width:100%" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group col-md-6" style="padding:20px 0;">
+                        <label asp-for="Level" class="control-label"></label>
+                        <input asp-for="Level" type="range" min="20" max="100" step="20" value="20" style="width:100%" />
+                        <span asp-validation-for="Level" class="text-danger"></span>
+                    </div>
+               </div>
+
+
+                
+            </div>
+    
+  
+            <div class="form-group">
+                <br />
+            
+                <input type="button"  value="Add"  id="add"    name="submit" class="btn btn-primary" />
+             
+                <input type="submit"  value="Next"   name="submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        var count = 0;
+        
+        document.getElementById("add").addEventListener('click', function AddSkill() {
+            if(count < 5){ 
+            document.getElementById("RadioBtn").innerHTML +=
+                `
+
+                                  <div class="col-md-6">
+                                    <div class="form-group col-md-6" style="margin-top : 10px>
+                                <label asp-for="Name" class="control-label">Name</label>
+                                <input asp-for="Name" id="Name" class="form-control" style=""/>
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+
+                                    <div class="form-group col-md-6" style="padding:20px; margin-left:-17px">
+                                <label asp-for="Level" class="control-label">Level</label>
+                                 <input asp-for="Level" type="range" min="20" max="100" step="20" value="20"  />
+                                <span asp-validation-for="Level" class="text-danger"></span>
+                            </div>
+                          </div>`
+
+
+        
+        }
+            count++;
+    })
+         
+    
+
+        
+    </script>
+}

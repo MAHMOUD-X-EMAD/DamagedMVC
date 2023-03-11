@@ -95,5 +95,9 @@ namespace Final.Controllers
             }
             return View(userVmReq);
         }
+        public IActionResult main()
+        {
+            return View();
+        }
     }
 }

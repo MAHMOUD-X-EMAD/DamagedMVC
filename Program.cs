@@ -49,7 +49,7 @@ namespace Final
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Account}/{action=Main}/{id?}");
             Project project = new Project();
          
             app.Run();

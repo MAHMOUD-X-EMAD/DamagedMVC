@@ -18,9 +18,10 @@ namespace Final.Controllers
             this.userManager = _userManager;
             this.signInManager = _signInManager;
         }
-     
+        Context context = new Context();
         public IActionResult Registration()
         {
+
             return View();
         }
        
@@ -97,6 +98,7 @@ namespace Final.Controllers
         }
         public IActionResult main()
         {
+            
             return View();
         }
     }

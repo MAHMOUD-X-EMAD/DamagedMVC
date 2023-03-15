@@ -1,4 +1,5 @@
 ﻿using Final.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Final.Repository
 {
@@ -21,8 +22,8 @@ namespace Final.Repository
 
         public CvTemplate GetById(int id)
         {
-            throw new NotImplementedException();
-        }
+			return context.CvTemplates.Include(c=>c.comments).FirstOrDefault(e => e.Id == id);
+		}
 
         public void Insert(CvTemplate Temp)
         {

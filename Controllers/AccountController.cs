@@ -3,7 +3,9 @@ using Final.ViewModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Drawing;
 using System.Security.Claims;
+using System.Text;
 
 namespace Final.Controllers
 {
@@ -37,6 +39,20 @@ namespace Final.Controllers
                 userModel.UserName = newUserVM.UserNAme;
                 userModel.PasswordHash = newUserVM.Password;
                 userModel.Email = newUserVM.Email;
+                userModel.image = Encoding.Default.GetBytes(newUserVM.image);
+                //userModel.image = Encoding.UTF8.GetString(newUserVM.image);
+                //Image image = Image.FromFile(newUserVM.image);
+                //// create a MemoryStream 
+                //var ms = new MemoryStream();  // this is where we are going to deposit the bytes
+                //                              // save bytes to ms
+                //image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
+                //// to get the bytes we type
+                //var bytes = ms.ToArray();
+
+                //userModel.image = $"{bytes}";
+                //// we can now save the byte array to a db, file, or transport (stream) it.
+                ///
+
 
                 IdentityResult result =
                     await userManager.CreateAsync(userModel, newUserVM.Password);
@@ -48,7 +64,7 @@ namespace Final.Controllers
                    
                     await signInManager.SignInWithClaimsAsync(userModel, false, addClaim);
                     
-                    return RedirectToAction("", "");
+                    return RedirectToAction("login", "account");
                 }
                 else
                 {
@@ -87,7 +103,7 @@ namespace Final.Controllers
                     if (rr.Succeeded)
 
                         //hayro7 el main page bta3tna
-                        return RedirectToAction("", "");
+                        return RedirectToAction("Index", "Home");
                 }
                 else
                 {

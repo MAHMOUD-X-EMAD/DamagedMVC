@@ -4,6 +4,6 @@ namespace Final.Models
 {
     public class ApplicationUser:IdentityUser
     {
-
+        public byte[] image { get; set; }
     }
 }

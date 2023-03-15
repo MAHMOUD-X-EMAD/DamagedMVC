@@ -18,6 +18,10 @@ namespace Final.ViewModel
 
         public string Email { get; set; }
 
-        
+        public string image { get; set; }
+
+        //public IFormFile Images { get; set; }
+
+
     }
 }

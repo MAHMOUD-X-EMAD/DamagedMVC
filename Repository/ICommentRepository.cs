@@ -6,7 +6,7 @@ namespace Final.Repository
     {
         List<Comment> GetAll();
         Comment GetById(int id);
-        void Insert(Comment Comment);
+        void Insert(Comment Comment,int Tempid);
         void Update(int id, Comment Comment);
         void Delete(int id);
     }

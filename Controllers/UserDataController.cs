@@ -1,4 +1,5 @@
 ﻿using Final.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.VisualBasic.Syntax;
 
@@ -8,24 +9,28 @@ namespace Final.Controllers
     {
         Context context= new Context();
         [HttpGet]
+        [Authorize]
         public IActionResult PersonalInfo()
         {
 
             return View();
         }
         [HttpGet]
+        [Authorize]
         public IActionResult CoverLetter()
         {
 
             return View();
         }
         [HttpGet]
+        [Authorize]
         public IActionResult Skill()
         {
             return View();
         }
 
         [HttpPost]
+        [Authorize]
         public IActionResult Skill(Skill Newskill,string submit)
         {
             //if (submit == "Add")
@@ -43,16 +48,19 @@ namespace Final.Controllers
             return View();
         }
         [HttpGet]
+        [Authorize]
         public IActionResult Experience()
         {
             return View();
         }
         [HttpGet]
+        [Authorize]
         public IActionResult Project()
         {
             return View();
         }
         [HttpGet]
+        [Authorize]
         public IActionResult Link()
         {
             return View();

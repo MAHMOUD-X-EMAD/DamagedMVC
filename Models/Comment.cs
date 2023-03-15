@@ -11,11 +11,15 @@ namespace Final.Models
 
         [MinLength(1)]
         public string Text { get; set; }
-        public int UserId { get; set; }
+        
+        public DateTime Date { get; set; }
+        public string username{ get; set; }
 
-        // public virtual User {get; set;} 
+      // public virtual User {get; set;} 
         [ForeignKey("CvTemplate")]
         public int TemplateId { get; set; }
+
+        public string image { get; set; }
         public virtual CvTemplate CvTemplate { get; set; }
         public bool isDeleted { get; set; }
 

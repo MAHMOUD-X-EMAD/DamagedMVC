@@ -1,3 +1,4 @@
+using Final.Hubs;
 using Final.Models;
 using Final.Repository;
 using Microsoft.AspNetCore.Identity;
@@ -14,12 +15,13 @@ namespace Final
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSignalR();
             builder.Services.AddDbContext<Context>(option =>
             {
                 option.UseSqlServer(builder.Configuration.GetConnectionString("CV"));
             });
-
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+		
+			builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireUppercase = false;
@@ -46,8 +48,9 @@ namespace Final
             app.UseRouting();
 
             app.UseAuthorization();
-
-            app.MapControllerRoute(
+			app.MapHub<CommentHub>("/Commenthub");
+	
+			app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Account}/{action=Main}/{id?}");
             Project project = new Project();

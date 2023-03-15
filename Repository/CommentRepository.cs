@@ -1,4 +1,5 @@
 ﻿using Final.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Final.Repository
 {
@@ -24,9 +25,17 @@ namespace Final.Repository
             throw new NotImplementedException();
         }
 
-        public void Insert(Comment Comment)
+        public void Insert(Comment Comment, int Tid)
         {
-            throw new NotImplementedException();
+      
+        
+          
+            CvTemplate cvtemp = context.CvTemplates.Include(c=>c.comments).FirstOrDefault(c => c.Id == Tid);
+            Comment.CvTemplate = cvtemp;
+            cvtemp.comments.Add(Comment);
+         
+            context.SaveChanges();
+
         }
 
         public void Update(int id, Comment Comment)

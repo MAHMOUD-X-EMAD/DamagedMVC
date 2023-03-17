@@ -131,6 +131,9 @@ namespace Final.Controllers
             link.EndDate = Userproject.EndDate;
             link.Details = Userproject.Details;
             link.ExperienceJobTitle = Userproject.ExperienceJobTitle;
+            link.Name= Userproject.Name;
+            link.ProjectEndDate= Userproject.EndDate;
+            
 
             return View(link);
         }

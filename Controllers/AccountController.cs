@@ -13,12 +13,14 @@ namespace Final.Controllers
     {
         private readonly UserManager<ApplicationUser> userManager;
         private readonly SignInManager<ApplicationUser> signInManager;
+        private Microsoft.AspNetCore.Hosting.IHostingEnvironment Environment;
 
         public AccountController
-            (UserManager<ApplicationUser> _userManager, SignInManager<ApplicationUser> _signInManager)
+            (Microsoft.AspNetCore.Hosting.IHostingEnvironment _Environment, UserManager<ApplicationUser> _userManager, SignInManager<ApplicationUser> _signInManager)
         {
             this.userManager = _userManager;
             this.signInManager = _signInManager;
+            Environment= _Environment;
         }
         Context context = new Context();
         public IActionResult Registration()
@@ -40,22 +42,35 @@ namespace Final.Controllers
                 userModel.PasswordHash = newUserVM.Password;
                 userModel.Email = newUserVM.Email;
                 userModel.image = Encoding.Default.GetBytes(newUserVM.image);
-                //userModel.image = Encoding.UTF8.GetString(newUserVM.image);
-                //Image image = Image.FromFile(newUserVM.image);
-                //// create a MemoryStream 
-                //var ms = new MemoryStream();  // this is where we are going to deposit the bytes
-                //                              // save bytes to ms
-                //image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
-                //// to get the bytes we type
-                //var bytes = ms.ToArray();
+                /*string wwwPath = this.Environment.WebRootPath;
+                string contentPath = this.Environment.ContentRootPath;
 
-                //userModel.image = $"{bytes}";
-                //// we can now save the byte array to a db, file, or transport (stream) it.
-                ///
+                string path = Path.Combine(this.Environment.WebRootPath, "/img/clients");
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
 
+                    string fileName = Path.GetFileName(newUserVM.Images.FileName);
+                    using (FileStream stream = new FileStream(Path.Combine(path, fileName), FileMode.Create))
+                    {
+                    newUserVM.Images.CopyTo(stream);
+                    }*/
+                string FileName = newUserVM.Images.FileName;
 
+                
+                string uniqueFileName = Guid.NewGuid().ToString() + "_" + FileName;
+
+                
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/clients", FileName);
+
+                
+                newUserVM.Images.CopyTo(new FileStream(imagePath, FileMode.Create));
+
+                
                 IdentityResult result =
                     await userManager.CreateAsync(userModel, newUserVM.Password);
+
 
                 if (result.Succeeded)
                 {

@@ -4,7 +4,11 @@
     ViewData["Title"] = "AllTemplates";
 }
 
+@section UserImage{
+    <img style="float:left; margin-right:10px" src="/img/portfolio/@ViewBag.UserImg" class="nav-link scrollto active rounded-circle d-flex" href="/Home/Index">
 
+    <h5 style="font-size:17px ; margin-top:7px ; " class="d-flex">@User.Identity.Name</h5>
+}
 
 <section id="portfolio" class="portfolio">
     <div class="container" data-aos="fade-up">

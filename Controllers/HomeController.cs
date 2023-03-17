@@ -26,8 +26,11 @@ namespace Final.Controllers
             _userManager = userManager;
         }
         [Authorize]
-        public IActionResult Index()
+        public async Task<IActionResult> IndexAsync()
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            string imreBase64Data = Encoding.Default.GetString(currentUser.image);
+            ViewData["UserImg"] = imreBase64Data;
             return View();
         }
         [Authorize]
@@ -66,9 +69,13 @@ namespace Final.Controllers
         }
 
         [Authorize]
-        public IActionResult AllTemplates()
+        public async Task<IActionResult> AllTemplatesAsync()
 		{
-			return View();
+            var currentUser = await _userManager.GetUserAsync(User);
+            string imreBase64Data = Encoding.Default.GetString(currentUser.image);
+            ViewData["UserImg"] = imreBase64Data;
+
+            return View();
 		}
 
 

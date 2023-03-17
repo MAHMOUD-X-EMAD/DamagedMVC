@@ -18,7 +18,6 @@ namespace Final.Models
       // public virtual User {get; set;} 
         [ForeignKey("CvTemplate")]
         public int TemplateId { get; set; }
-
         public string image { get; set; }
         public virtual CvTemplate CvTemplate { get; set; }
         public bool isDeleted { get; set; }

@@ -1,4 +1,5 @@
-﻿@model Final.Models.Project
+﻿@using Final.ViewModel;
+@model ProjectViewModel
 
 @{
     Layout = "_UserDataLayout";
@@ -9,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Project">
+        <form asp-action="Link" asp-controller="userdata">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             
             <div class="form-group">
@@ -31,6 +32,79 @@
                 <label asp-for="Link" class="control-label"></label>
                 <input asp-for="Link" class="form-control" style="width:250px" />
                 <span asp-validation-for="Link" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.Address" style="height: 140px;width: 450px;" asp-for="Address" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.Phone" style="height: 140px;width: 450px;" asp-for="Phone" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.Photo" style="height: 140px;width: 450px;" asp-for="Photo" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.Name" style="height: 140px;width: 450px;" asp-for="Name" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.Email" style="height: 140px;width: 450px;" asp-for="Email" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.JobTitle" style="height: 140px;width: 450px;" asp-for="JobTitle" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.CoverLetter" style="height: 140px;width: 450px;" asp-for="CoverLetter" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.SkillName" style="height: 140px;width: 450px;" asp-for="SkillName" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.ExperienceJobTitle" style="height: 140px;width: 450px;" asp-for="ExperienceJobTitle" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.CompanyName" style="height: 140px;width: 450px;" asp-for="CompanyName" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.Level" style="height: 140px;width: 450px;" asp-for="Level" class="form-control"></input>
+
+            </div>
+
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.StartDate" style="height: 140px;width: 450px;" asp-for="Level" class="form-control"></input>
+
+            </div>
+
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.EndDate" style="height: 140px;width: 450px;" asp-for="EndDate" class="form-control"></input>
+
+            </div>
+
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.Details" style="height: 140px;width: 450px;" asp-for="Details" class="form-control"></input>
+
             </div>
 
             <div class="row" id="RadioBtn">

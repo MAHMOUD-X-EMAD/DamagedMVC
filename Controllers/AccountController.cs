@@ -41,7 +41,7 @@ namespace Final.Controllers
                 userModel.UserName = newUserVM.UserNAme;
                 userModel.PasswordHash = newUserVM.Password;
                 userModel.Email = newUserVM.Email;
-                userModel.image = Encoding.Default.GetBytes(newUserVM.image);
+                userModel.image = Encoding.Default.GetBytes(newUserVM.image.FileName);
                 /*string wwwPath = this.Environment.WebRootPath;
                 string contentPath = this.Environment.ContentRootPath;
 
@@ -62,7 +62,7 @@ namespace Final.Controllers
                 string uniqueFileName = Guid.NewGuid().ToString() + "_" + FileName;
 
                 
-                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/clients", FileName);
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/portfolio", FileName);
 
                 
                 newUserVM.Images.CopyTo(new FileStream(imagePath, FileMode.Create));

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LqbcWP5wx6rLwz9j/jz7xoGxjsfUTPy79w4eduFvgSM=",
+  "Hash": "ypiya+aEAwY8+dT0ef36yi7URmqlC1WiSVIaQJyd2HA=",
   "Source": "Final",
   "BasePath": "_content/Final",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\back.png"
+    },
+    {
+      "Identity": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\clients\\16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg",
+      "SourceId": "Final",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\",
+      "BasePath": "_content/Final",
+      "RelativePath": "img/clients/16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\clients\\16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg"
     },
     {
       "Identity": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\clients\\client-1.png",

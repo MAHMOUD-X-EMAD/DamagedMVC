@@ -1630,3 +1630,4 @@ E:\1TI 9 Months\NewLast\MVC_Project\bin\Debug\net7.0\Uno.Xaml.dll
 E:\1TI 9 Months\NewLast\MVC_Project\bin\Debug\net7.0\Uno.dll
 E:\1TI 9 Months\NewLast\MVC_Project\obj\Debug\net7.0\Final.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
 E:\1TI 9 Months\NewLast\MVC_Project\bin\Debug\net7.0\Final\wwwroot\img\clients\User1.jpeg
+E:\1TI 9 Months\NewLast\MVC_Project\bin\Debug\net7.0\Final\wwwroot\img\clients\16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg

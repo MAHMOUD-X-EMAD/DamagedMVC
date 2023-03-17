@@ -18,6 +18,7 @@ namespace Final.ViewModel
         public PersonalInfo PersonalInfos { get; set; }
 
         //CoverLetter
+
         public string CoverLetter { get; set; }
 
 

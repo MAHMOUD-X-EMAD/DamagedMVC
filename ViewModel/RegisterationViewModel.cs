@@ -18,7 +18,7 @@ namespace Final.ViewModel
 
         public string Email { get; set; }
 
-        public string image { get; set; }
+        public IFormFile image { get; set; }
         [DisplayName("Upload Your Image Again")]
         public IFormFile Images { get; set; }
 

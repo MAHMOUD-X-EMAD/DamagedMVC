@@ -6,9 +6,9 @@ namespace Final.Models
     {
         public Links() { }
         public int Id { get; set; }
-        [RegularExpression ("/^(http(s)?:\\/\\/)?([\\w]+\\.)?linkedin\\.com\\/(pub|in|profile)/")]
+     // [RegularExpression ("/^(http(s)?:\\/\\/)?([\\w]+\\.)?linkedin\\.com\\/(pub|in|profile)\\/([-a-zA-Z0-9]+)\\/")]
         public string Linkedin { get; set; }
-        [RegularExpression("/\r\n^(http(s?):\\/\\/)?(www\\.)?github\\.([a-z])+\\/([A-Za-z0-9]{1,})+\\/?$\r\n/")]
+     // [RegularExpression("^(http(s?):\\/\\/)?(www\\.)?github\\.([a-z])+\\/([A-Za-z0-9]{1,})+\\/?$")]
         public string GitHub { get; set; }
         public bool isDeleted { get; set; }
     }

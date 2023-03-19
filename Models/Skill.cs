@@ -7,7 +7,7 @@ namespace Final.Models
 
         public int Id { get; set; }
         public string Name { get; set; }
-        [Range(1, 5)]
+        [Range(20, 100)]
         public int Level { get; set; }
         public bool isDeleted { get; set; }
     }

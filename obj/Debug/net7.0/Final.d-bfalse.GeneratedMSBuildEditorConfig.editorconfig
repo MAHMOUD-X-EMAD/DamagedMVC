@@ -171,6 +171,15 @@ build_metadata.AdditionalFiles.Identity = Views\Shared\_PostsLayout.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/1TI 9 Months/NewLast/MVC_Project/Views/Shared/_TemplatesSliderLayout.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZW1wbGF0ZXNTbGlkZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.FullPath = E:\1TI 9 Months\NewLast\MVC_Project\Views\Shared\_TemplatesSliderLayout.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Shared\_TemplatesSliderLayout.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/1TI 9 Months/NewLast/MVC_Project/Views/Shared/_TemplateViewLayout.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
@@ -258,6 +267,69 @@ build_metadata.AdditionalFiles.Link =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhdGFcU2tpbGwuY3NodG1s
 build_metadata.AdditionalFiles.FullPath = E:\1TI 9 Months\NewLast\MVC_Project\Views\UserData\Skill.cshtml
 build_metadata.AdditionalFiles.Identity = Views\UserData\Skill.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1TI 9 Months/NewLast/MVC_Project/Views/UserData/SliderLayout.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhdGFcU2xpZGVyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.FullPath = E:\1TI 9 Months\NewLast\MVC_Project\Views\UserData\SliderLayout.cshtml
+build_metadata.AdditionalFiles.Identity = Views\UserData\SliderLayout.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1TI 9 Months/NewLast/MVC_Project/Views/UserData/Template1.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhdGFcVGVtcGxhdGUxLmNzaHRtbA==
+build_metadata.AdditionalFiles.FullPath = E:\1TI 9 Months\NewLast\MVC_Project\Views\UserData\Template1.cshtml
+build_metadata.AdditionalFiles.Identity = Views\UserData\Template1.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1TI 9 Months/NewLast/MVC_Project/Views/UserData/Template2.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhdGFcVGVtcGxhdGUyLmNzaHRtbA==
+build_metadata.AdditionalFiles.FullPath = E:\1TI 9 Months\NewLast\MVC_Project\Views\UserData\Template2.cshtml
+build_metadata.AdditionalFiles.Identity = Views\UserData\Template2.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1TI 9 Months/NewLast/MVC_Project/Views/UserData/Template3.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhdGFcVGVtcGxhdGUzLmNzaHRtbA==
+build_metadata.AdditionalFiles.FullPath = E:\1TI 9 Months\NewLast\MVC_Project\Views\UserData\Template3.cshtml
+build_metadata.AdditionalFiles.Identity = Views\UserData\Template3.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1TI 9 Months/NewLast/MVC_Project/Views/UserData/Template4.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhdGFcVGVtcGxhdGU0LmNzaHRtbA==
+build_metadata.AdditionalFiles.FullPath = E:\1TI 9 Months\NewLast\MVC_Project\Views\UserData\Template4.cshtml
+build_metadata.AdditionalFiles.Identity = Views\UserData\Template4.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1TI 9 Months/NewLast/MVC_Project/Views/UserData/Template5.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhdGFcVGVtcGxhdGU1LmNzaHRtbA==
+build_metadata.AdditionalFiles.FullPath = E:\1TI 9 Months\NewLast\MVC_Project\Views\UserData\Template5.cshtml
+build_metadata.AdditionalFiles.Identity = Views\UserData\Template5.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1TI 9 Months/NewLast/MVC_Project/Views/UserData/Template6.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhdGFcVGVtcGxhdGU2LmNzaHRtbA==
+build_metadata.AdditionalFiles.FullPath = E:\1TI 9 Months\NewLast\MVC_Project\Views\UserData\Template6.cshtml
+build_metadata.AdditionalFiles.Identity = Views\UserData\Template6.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.CssScope = 
 

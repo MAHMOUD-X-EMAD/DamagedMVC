@@ -13,6 +13,906 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template1\\aostemp1.css",
+      "PackagePath": "staticwebassets\\css\\template1\\aostemp1.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template1\\bootstraptemp1.min.css",
+      "PackagePath": "staticwebassets\\css\\template1\\bootstraptemp1.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template1\\maintemp1.css",
+      "PackagePath": "staticwebassets\\css\\template1\\maintemp1.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\aos.css",
+      "PackagePath": "staticwebassets\\css\\template2\\aos.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\template2\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\template2\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\main.css",
+      "PackagePath": "staticwebassets\\css\\template2\\main.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\print.css",
+      "PackagePath": "staticwebassets\\css\\template2\\print.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template2\\site.css",
+      "PackagePath": "staticwebassets\\css\\template2\\site.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\aos.css",
+      "PackagePath": "staticwebassets\\css\\template3\\aos.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\main.css",
+      "PackagePath": "staticwebassets\\css\\template3\\main.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\mdb.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\mdb.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\mdb.min.css.map",
+      "PackagePath": "staticwebassets\\css\\template3\\mdb.min.css.map"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\mdb.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\mdb.rtl.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template3\\mdb.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\template3\\mdb.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\default.css",
+      "PackagePath": "staticwebassets\\css\\template4\\default.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\spinning.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\animation.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\animation.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello-codes.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello-codes.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello-embedded.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello-embedded.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello-ie7-codes.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello-ie7-codes.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello-ie7.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello-ie7.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\font\\fontello.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\font\\fontello.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\font\\fontello.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fontello\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\font\\fontello.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\layout.css",
+      "PackagePath": "staticwebassets\\css\\template4\\layout.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\template4\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template4\\media-queries.css",
+      "PackagePath": "staticwebassets\\css\\template4\\media-queries.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\aos.css",
+      "PackagePath": "staticwebassets\\css\\template5\\aos.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\index.html",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\index.html"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template5\\main.css",
+      "PackagePath": "staticwebassets\\css\\template5\\main.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\template6\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\devicons\\css\\devicons.css",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\css\\devicons.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\devicons\\css\\devicons.min.css",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\css\\devicons.min.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\devicons\\css\\devicons.scss",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\css\\devicons.scss"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\devicons\\fonts\\devicons.eot",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\fonts\\devicons.eot"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\devicons\\fonts\\devicons.svg",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\fonts\\devicons.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\devicons\\fonts\\devicons.ttf",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\fonts\\devicons.ttf"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\devicons\\fonts\\devicons.woff",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\fonts\\devicons.woff"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\simple-line-icons\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\css\\template6\\simple-line-icons\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\css\\template6\\style.css",
+      "PackagePath": "staticwebassets\\css\\template6\\style.css"
+    },
+    {
       "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -85,6 +985,14 @@
       "PackagePath": "staticwebassets\\img\\loginOrange.df1992fa.svg"
     },
     {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\portfolio\\16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\2.jpg"
+    },
+    {
       "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\portfolio\\CV1.jpeg",
       "PackagePath": "staticwebassets\\img\\portfolio\\CV1.jpeg"
     },
@@ -109,8 +1017,24 @@
       "PackagePath": "staticwebassets\\img\\portfolio\\CV6.jpeg"
     },
     {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\portfolio\\H6wwHJqDnUNHamw8Owm4vDIPvMerVEyCUXjqznsj.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\H6wwHJqDnUNHamw8Owm4vDIPvMerVEyCUXjqznsj.jpeg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\portfolio\\IMG_20221107_104452.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\IMG_20221107_104452.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\portfolio\\WhatsApp Image 2023-01-30 at 6.49.51 PM.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\WhatsApp Image 2023-01-30 at 6.49.51 PM.jpeg"
+    },
+    {
       "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\portfolio\\food1.jpg",
       "PackagePath": "staticwebassets\\img\\portfolio\\food1.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\portfolio\\myPhoto.jfif",
+      "PackagePath": "staticwebassets\\img\\portfolio\\myPhoto.jfif"
     },
     {
       "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-1.jpg",
@@ -169,6 +1093,30 @@
       "PackagePath": "staticwebassets\\img\\portfolio\\user2.jpg"
     },
     {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp1.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp1.png"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp2.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp2.png"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp3.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp3.png"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp4.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp4.png"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp5.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp5.png"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp6.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp6.png"
+    },
+    {
       "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\team\\resume-and-cv.png",
       "PackagePath": "staticwebassets\\img\\team\\resume-and-cv.png"
     },
@@ -197,12 +1145,292 @@
       "PackagePath": "staticwebassets\\img\\team\\template.png"
     },
     {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template1\\anthony.jpg",
+      "PackagePath": "staticwebassets\\img\\template1\\anthony.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template1\\cc-bg-1.jpg",
+      "PackagePath": "staticwebassets\\img\\template1\\cc-bg-1.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template2\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\template2\\avatar.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template3\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\template3\\avatar.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template3\\header-background.jpg",
+      "PackagePath": "staticwebassets\\img\\template3\\header-background.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template4\\header-background.jpg",
+      "PackagePath": "staticwebassets\\img\\template4\\header-background.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template4\\profilepic.jpg",
+      "PackagePath": "staticwebassets\\img\\template4\\profilepic.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\avatar.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\hello3.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\hello3.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\marker.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\marker.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\services\\app-development.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\app-development.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\services\\full-stack.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\full-stack.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\services\\graphic-design.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\graphic-design.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\services\\ui-ux.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\ui-ux.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\services\\web-design.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\web-design.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\testimonials\\client1.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\testimonials\\client1.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\testimonials\\client2.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\testimonials\\client2.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\testimonials\\client3.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\testimonials\\client3.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\testimonials\\client4.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\testimonials\\client4.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template5\\wave-bg.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\wave-bg.svg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template6\\bg-stats.jpg",
+      "PackagePath": "staticwebassets\\img\\template6\\bg-stats.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template6\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\template6\\favicon.ico"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template6\\logo-s.png",
+      "PackagePath": "staticwebassets\\img\\template6\\logo-s.png"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template6\\logo-white.png",
+      "PackagePath": "staticwebassets\\img\\template6\\logo-white.png"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template6\\profile-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\template6\\profile-banner.jpg"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\img\\template6\\profile.jpg",
+      "PackagePath": "staticwebassets\\img\\template6\\profile.jpg"
+    },
+    {
       "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
       "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\sliderlayout\\jssor.slider-28.1.0.min.js",
+      "PackagePath": "staticwebassets\\js\\sliderlayout\\jssor.slider-28.1.0.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\aostemp1.js",
+      "PackagePath": "staticwebassets\\js\\template1\\aostemp1.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\core\\bootstraptemp1.min.js",
+      "PackagePath": "staticwebassets\\js\\template1\\core\\bootstraptemp1.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\core\\jquerytemp1.3.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\template1\\core\\jquerytemp1.3.2.1.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\core\\poppertemp1.min.js",
+      "PackagePath": "staticwebassets\\js\\template1\\core\\poppertemp1.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\now-ui-kittemp1.js",
+      "PackagePath": "staticwebassets\\js\\template1\\now-ui-kittemp1.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\plugins\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\js\\template1\\plugins\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\plugins\\bootstrap-switch.js",
+      "PackagePath": "staticwebassets\\js\\template1\\plugins\\bootstrap-switch.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\plugins\\jquery.sharrre.js",
+      "PackagePath": "staticwebassets\\js\\template1\\plugins\\jquery.sharrre.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\plugins\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\template1\\plugins\\nouislider.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template1\\scripts\\maintemp1.js",
+      "PackagePath": "staticwebassets\\js\\template1\\scripts\\maintemp1.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template2\\aos.js",
+      "PackagePath": "staticwebassets\\js\\template2\\aos.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template2\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\template2\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template2\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\template2\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template2\\main.js",
+      "PackagePath": "staticwebassets\\js\\template2\\main.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template3\\aos.js",
+      "PackagePath": "staticwebassets\\js\\template3\\aos.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template3\\main.js",
+      "PackagePath": "staticwebassets\\js\\template3\\main.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template3\\mdb.min.js",
+      "PackagePath": "staticwebassets\\js\\template3\\mdb.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template3\\mdb.min.js.map",
+      "PackagePath": "staticwebassets\\js\\template3\\mdb.min.js.map"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template4\\init.js",
+      "PackagePath": "staticwebassets\\js\\template4\\init.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template4\\jquery-1.10.2.min.js",
+      "PackagePath": "staticwebassets\\js\\template4\\jquery-1.10.2.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template4\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\template4\\jquery-migrate-1.2.1.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template4\\jquery.fittext.js",
+      "PackagePath": "staticwebassets\\js\\template4\\jquery.fittext.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template4\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\js\\template4\\jquery.flexslider.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template4\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\js\\template4\\magnific-popup.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template4\\modernizr.js",
+      "PackagePath": "staticwebassets\\js\\template4\\modernizr.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template4\\waypoints.js",
+      "PackagePath": "staticwebassets\\js\\template4\\waypoints.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template5\\BigPicture.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\BigPicture.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template5\\aos.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\aos.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template5\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template5\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\template5\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template5\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template5\\main.js",
+      "PackagePath": "staticwebassets\\js\\template5\\main.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template5\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template5\\purecounter.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\purecounter.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template6\\bootstrap\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\bootstrap\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template6\\counter\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\counter\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template6\\counter\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\counter\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template6\\custom.js",
+      "PackagePath": "staticwebassets\\js\\template6\\custom.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template6\\jquery-easing\\jquery.easing.compatibility.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery-easing\\jquery.easing.compatibility.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template6\\jquery-easing\\jquery.easing.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery-easing\\jquery.easing.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template6\\jquery-easing\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery-easing\\jquery.easing.min.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template6\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\js\\template6\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery\\jquery.min.js"
     },
     {
       "Id": "E:\\1TI 9 Months\\NewLast\\MVC_Project\\wwwroot\\lib\\bootstrap\\LICENSE",

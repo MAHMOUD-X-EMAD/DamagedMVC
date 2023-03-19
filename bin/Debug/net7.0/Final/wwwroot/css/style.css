@@ -79,34 +79,34 @@ h6,
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header {
-  height: 72px;
-  transition: all 0.5s;
-  z-index: 997;
-  transition: all 0.5s;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+.headerSection {
+    height: 72px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#header .logo h1 {
-  font-size: 30px;
-  margin: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
+.headerSection .logo h1 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
-  color: #7a6960;
-  text-decoration: none;
+.headerSection .logo h1 a,
+.headerSection .logo h1 a:hover {
+    color: #7a6960;
+    text-decoration: none;
 }
 
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
-}
+.headerSection.logo img {
+        padding: 0;
+        margin: 0;
+        max-height: 40px;
+    }
 
 #main {
   margin-top: 72px;
@@ -118,125 +118,125 @@ h6,
 /**
 * Desktop Navigation 
 */
-.navbar {
-  padding: 0;
+.navbarLayout {
+    padding: 0;
 }
 
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
+    .navbarLayout ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
 
-.navbar li {
-  position: relative;
-}
+    .navbarLayout li {
+        position: relative;
+    }
 
-.navbar a,
-.navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  font-size: 15px;
-  color: #4e4039;
-  white-space: nowrap;
-  transition: 0.3s;
-}
+    .navbarLayout a,
+    .navbarLayout a:focus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0 10px 30px;
+        font-size: 15px;
+        color: #4e4039;
+        white-space: nowrap;
+        transition: 0.3s;
+    }
 
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
+        .navbarLayout a i,
+        .navbarLayout a:focus i {
+            font-size: 12px;
+            line-height: 0;
+            margin-left: 5px;
+        }
 
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
-  color: #eb5d1e;
-}
+        .navbarLayout a:hover,
+        .navbarLayout .active,
+        .navbarLayout .active:focus,
+        .navbarLayout li:hover > a {
+            color: #eb5d1e;
+        }
 
-.navbar .getstarted,
-.navbar .getstarted:focus {
-  background: #eb5d1e;
-  color: #fff;
-  padding: 10px 25px;
-  margin-left: 30px;
-  border-radius: 50px;
-}
+    .navbarLayout .getstarted,
+    .navbarLayout .getstarted:focus {
+        background: #eb5d1e;
+        color: #fff;
+        padding: 10px 25px;
+        margin-left: 30px;
+        border-radius: 50px;
+    }
 
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #ee7843;
-}
+        .navbarLayout .getstarted:hover,
+        .navbarLayout .getstarted:focus:hover {
+            color: #fff;
+            background: #ee7843;
+        }
 
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-}
+    .navbarLayout .dropdown ul {
+        display: block;
+        position: absolute;
+        left: 14px;
+        top: calc(100% + 30px);
+        margin: 0;
+        padding: 10px 0;
+        z-index: 99;
+        opacity: 0;
+        visibility: hidden;
+        background: #fff;
+        box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+        transition: 0.3s;
+    }
 
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
+        .navbarLayout .dropdown ul li {
+            min-width: 200px;
+        }
 
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 15px;
-  text-transform: none;
-}
+        .navbarLayout .dropdown ul a {
+            padding: 10px 20px;
+            font-size: 15px;
+            text-transform: none;
+        }
 
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
+            .navbarLayout .dropdown ul a i {
+                font-size: 12px;
+            }
 
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #eb5d1e;
-}
+            .navbarLayout .dropdown ul a:hover,
+            .navbarLayout .dropdown ul .active:hover,
+            .navbarLayout .dropdown ul li:hover > a {
+                color: #eb5d1e;
+            }
 
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
+    .navbarLayout .dropdown:hover > ul {
+        opacity: 1;
+        top: 100%;
+        visibility: visible;
+    }
 
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
+    .navbarLayout .dropdown .dropdown ul {
+        top: 0;
+        left: calc(100% - 30px);
+        visibility: hidden;
+    }
 
-.navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
+    .navbarLayout .dropdown .dropdown:hover > ul {
+        opacity: 1;
+        top: 0;
+        left: 100%;
+        visibility: visible;
+    }
 
 @media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
+    .navbarLayout .dropdown .dropdown ul {
+        left: -90%;
+    }
 
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
+    .navbarLayout .dropdown .dropdown:hover > ul {
+        left: -100%;
+    }
 }
 
 /**
@@ -586,17 +586,38 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+#submiteit {
+    font-size: 16px;
+    padding: 0 20px;
+    background: #eb5d1e;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+}
+
+#services .services-img {
+    text-align: center;
+}
+
+#services .services-img img {
+    width: 50%;
+}
+
 .services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  margin: 0 0 40px 0;
-  background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
-  border-radius: 15px;
-  text-align: center;
-  border-bottom: 3px solid #fff;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
 }
 
 .services .icon-box:hover {
@@ -630,8 +651,14 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio .portfolio-img{
+    text-align:center;
+}
+#portfolio .portfolio-img img{
+    width:50%;
+}
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .portfolio #portfolio-flters {

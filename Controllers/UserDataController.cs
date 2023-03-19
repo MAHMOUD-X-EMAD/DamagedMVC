@@ -3,157 +3,116 @@ using Final.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.VisualBasic.Syntax;
+using Microsoft.EntityFrameworkCore;
 
 namespace Final.Controllers
 {
     public class UserDataController : Controller
     {
+      
         Context context = new Context();
+
+        UserData UserData = new UserData();
 
 
         [HttpGet]
         [Authorize]
         public IActionResult PersonalInfo()
         {
-
-            return View();
-        }
-
-
-        //[HttpGet]
-        //[Authorize]
-        //public IActionResult CoverLetter()
-        //{
-
-        //    return View();
-        //}
-        [HttpPost]
-        [Authorize]
-        public IActionResult CoverLetter(PersonalInfo personalInfo)
-        {
-            CoverLetterViewModel coverLetter = new CoverLetterViewModel();
-
-            coverLetter.Name = personalInfo.Name;
-            coverLetter.Address = personalInfo.Address;
-            coverLetter.Phone = personalInfo.Phone;
-            coverLetter.Photo = personalInfo.Photo;
-            coverLetter.Email = personalInfo.Email;
-            coverLetter.JobTitle = personalInfo.JobTitle;
-
-
-            return View(coverLetter);
+         
+           return View();
         }
 
 
         [HttpPost]
         [Authorize]
-        public IActionResult Skill(CoverLetterViewModel coverrLetter)
+        public IActionResult CoverLetter(UserData userDataa)
         {
-            SkillViewModel skill = new SkillViewModel();
+           
 
-            skill.Email = coverrLetter.Email;
-            skill.Name = coverrLetter.Name;
-            skill.Address = coverrLetter.Address;
-            skill.Phone = coverrLetter.Phone;
-            skill.Photo = coverrLetter.Photo;
-            skill.JobTitle = coverrLetter.JobTitle;
-            skill.CoverLetter = coverrLetter.CoverLetter;
+            UserData.PersonalInfo=userDataa.PersonalInfo;
 
 
-            return View(skill);
+
+
+            return View(UserData);
         }
 
 
         [HttpPost]
         [Authorize]
-        public IActionResult Experience(SkillViewModel Userskill)
+        public IActionResult Skill(UserData userDataa)
         {
-            ExperienceViewModel experience = new ExperienceViewModel();
+            UserData.CoverLetter = userDataa.CoverLetter;
 
-            experience.Email = Userskill.Email;
-            experience.Name = Userskill.Name;
-            experience.Address = Userskill.Address;
-            experience.Phone = Userskill.Phone;
-            experience.Photo = Userskill.Photo;
-            experience.JobTitle = Userskill.JobTitle;
-            experience.CoverLetter = Userskill.CoverLetter;
-            experience.Level = Userskill.Level;
-            experience.SkillName = Userskill.SkillName;
+           
 
-            return View(experience);
+            UserData.PersonalInfo = userDataa.PersonalInfo;
+
+
+            return View(UserData);
         }
 
 
         [HttpPost]
         [Authorize]
-        public IActionResult Project(ExperienceViewModel UserExperience)
+        public IActionResult Experience(UserData userDataa)
         {
-            ProjectViewModel project = new ProjectViewModel();
+           
+            UserData.Skill = userDataa.Skill;
+            UserData.CoverLetter=userDataa.CoverLetter;
+            UserData.PersonalInfo = userDataa.PersonalInfo;
 
-            project.Email = UserExperience.Email;
-            project.Name = UserExperience.Name;
-            project.Address = UserExperience.Address;
-            project.Phone = UserExperience.Phone;
-            project.Photo = UserExperience.Photo;
-            project.JobTitle = UserExperience.JobTitle;
-            project.CoverLetter = UserExperience.CoverLetter;
-            project.Level = UserExperience.Level;
-            project.SkillName = UserExperience.SkillName;
-            project.ExperienceJobTitle = UserExperience.ExperienceJobTitle;
-            project.CompanyName = UserExperience.CompanyName;
-            project.StartDate = UserExperience.StartDate;
-            project.EndDate = UserExperience.EndDate;
-            project.Details = UserExperience.Details;
-
-            return View(project);
+            return View(UserData);
         }
 
 
         [HttpPost]
         [Authorize]
-        public IActionResult Link(ProjectViewModel Userproject)
+        public IActionResult Project(UserData userDataa)
         {
-            LinkViewModel link = new LinkViewModel();
+            UserData.Experiences = userDataa.Experiences;
 
-            link.ProjectLink = Userproject.Link;
-            link.Title = Userproject.Title;
-            link.Description = Userproject.Description;
-            link.Address = Userproject.Address;
-            link.Phone = Userproject.Phone;
-            link.Photo = Userproject.Photo;
-            link.JobTitle = Userproject.JobTitle;
-            link.CoverLetter = Userproject.CoverLetter;
-            link.Level = Userproject.Level;
-            link.SkillName = Userproject.SkillName;
-            link.Email = Userproject.Email;
-            link.CompanyName = Userproject.CompanyName;
-            link.StartDate = Userproject.StartDate;
-            link.EndDate = Userproject.EndDate;
-            link.Details = Userproject.Details;
-            link.ExperienceJobTitle = Userproject.ExperienceJobTitle;
-            link.Name= Userproject.Name;
-            link.ProjectEndDate= Userproject.EndDate;
-            
+            UserData.Skill = userDataa.Skill;
+            UserData.CoverLetter = userDataa.CoverLetter;
+            UserData.PersonalInfo = userDataa.PersonalInfo;
 
-            return View(link);
+            return View(UserData);
+        }
+
+
+        [HttpPost]
+        [Authorize]
+        public IActionResult Link(UserData userDataa)
+        {
+            UserData.Projects= userDataa.Projects;
+
+            UserData.Experiences = userDataa.Experiences;
+
+            UserData.Skill = userDataa.Skill;
+            UserData.CoverLetter = userDataa.CoverLetter;
+            UserData.PersonalInfo = userDataa.PersonalInfo;
+            return View(UserData);
         }
         [HttpPost, Authorize]
-        public IActionResult createCv(LinkViewModel Userlink)
+        public IActionResult createCv(UserData userDataa)
         {
-            UserData userData = new UserData();
+            UserData.Links = userDataa.Links;
 
-            userData.CoverLetter = Userlink.CoverLetter;
-            userData.PersonalInfo = Userlink.PersonalInfos;
-            userData.Links = Userlink.links;
-            userData.Skill = Userlink.skills;
-            userData.Experiences = Userlink.experiences;
-            userData.Projects = Userlink.projects;
+            UserData.Projects = userDataa.Projects;
+
+            UserData.Experiences = userDataa.Experiences;
+
+            UserData.Skill = userDataa.Skill;
+            UserData.CoverLetter = userDataa.CoverLetter;
+            UserData.PersonalInfo = userDataa.PersonalInfo;
 
 
-            context.UserData.Add(userData);
+
+            context.UserData.Add(UserData);
             context.SaveChanges();
 
-            return View();
+            return View("SliderLayout");
         }
     }
 }

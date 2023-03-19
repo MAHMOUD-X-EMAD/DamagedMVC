@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Final.Models
 {
-    public class Context:IdentityDbContext<ApplicationUser>
+    public class Context : IdentityDbContext<ApplicationUser>
     {
 
         public Context() { }
@@ -20,7 +20,76 @@ namespace Final.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=MAHMOUD-EMAD\\SQL19;Initial Catalog=CvBuilder;Integrated Security=True;Encrypt=False");
+            optionsBuilder.UseSqlServer(@"Data Source=MAHMOUD-EMAD\SQL19;Initial Catalog=CvBuilder;Integrated Security=True; trust server certificate = true");
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            modelBuilder.Entity<CvTemplate>().HasData(new[]
+            {
+                 new CvTemplate
+                     {
+                        Id=1,
+                        Likes = 20,
+                        Img= "CV1.jpeg",
+                       comments=null,
+isDeleted=false,
+
+                     },
+                new CvTemplate
+                     {
+                        Id=2,
+                        Likes = 12,
+                        Img= "CV2.jpeg",
+                           comments=null,
+                           isDeleted=false,
+
+
+                     },
+                new CvTemplate
+                     {
+                        Id=3,
+                        Likes = 46,
+                        Img= "CV3.jpeg",
+                           comments=null,
+                           isDeleted=false,
+
+                     },
+                new CvTemplate
+                     {
+                        Id=4,
+                        Likes = 76,
+                        Img= "CV4.jpeg",
+                           comments=null,
+                           isDeleted=false,
+
+                     },
+                new CvTemplate
+                     {
+                        Id=5,
+                        Likes = 74,
+                        Img= "CV5.jpeg",
+                           comments=null,
+                           isDeleted=false,
+
+                     },
+                new CvTemplate
+                     {
+                        Id=6,
+                        Likes = 35,
+                        Img= "CV6.jpeg",
+                           comments=null,
+                           isDeleted=false,
+
+                     },
+
+            });
+            base.OnModelCreating(modelBuilder);
+
+
+
+
+
         }
     }
 }

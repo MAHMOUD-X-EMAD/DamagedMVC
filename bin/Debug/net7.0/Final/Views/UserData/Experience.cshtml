@@ -1,5 +1,5 @@
 ﻿@using Final.ViewModel;
-@model ExperienceViewModel
+@model UserData
 
 @{
     Layout = "_UserDataLayout";
@@ -10,93 +10,106 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Project" asp-controller="userdata">
+        <form asp-action="Project" asp-controller="UserData" >
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-          
-            <div class="form-group">
-                <label asp-for="CompanyName" class="control-label"></label>
-                <input asp-for="CompanyName" class="form-control" style="width:250px" />
-                <span asp-validation-for="CompanyName" class="text-danger"></span>
+
+            
+        @*experience*@
+
+                @for (int i = 0; i < Model.Experiences.Count; i++)
+                {
+             <div class="form-group ">
+                    <label asp-for="@Model.Experiences[i].CompanyName" class="control-label"></label>
+                    <input asp-for="@Model.Experiences[i].CompanyName" class="form-control" style="width:250px" />
+                    <span asp-validation-for="@Model.Experiences[i].CompanyName" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="JobTitle" class="control-label"></label>
-                <input asp-for="JobTitle" class="form-control"  style="width:250px"/>
-                <span asp-validation-for="JobTitle" class="text-danger"></span>
+                        <div class="form-group ">
+                    <label asp-for="@Model.Experiences[i].JobTitle" class="control-label"></label>
+                    <input asp-for="@Model.Experiences[i].JobTitle" class="form-control" style="width:250px" />
+                    <span asp-validation-for="@Model.Experiences[i].JobTitle" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="StartDate" class="control-label"></label>
-                <input asp-for="StartDate" class="form-control" style="width:250px" />
-                <span asp-validation-for="StartDate" class="text-danger"></span>
+                        <div class="form-group ">
+                    <label asp-for="@Model.Experiences[i].StartDate" class="control-label"></label>
+                    <input asp-for="@Model.Experiences[i].StartDate" class="form-control" style="width:250px" />
+                    <span asp-validation-for="@Model.Experiences[i].StartDate" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="EndDate" class="control-label"></label>
-                <input asp-for="EndDate" class="form-control"  style="width:250px"/>
-                <span asp-validation-for="EndDate" class="text-danger"></span>
+            <div class="form-group ">
+                    <label asp-for="@Model.Experiences[i].EndDate" class="control-label"></label>
+                    <input asp-for="@Model.Experiences[i].EndDate" class="form-control" style="width:250px" />
+                    <span asp-validation-for="@Model.Experiences[i].EndDate" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Details" class="control-label"></label>
-                <textarea asp-for="Details" class="form-control" style="height: 140px;width: 450px;"></textarea>
-                <span asp-validation-for="Details" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-
-                <input hidden type="text" value="@Model.Address" style="height: 140px;width: 450px;" asp-for="Address" class="form-control"></input>
-
-            </div>
-            <div class="form-group">
-
-                <input hidden type="text" value="@Model.Level" style="height: 140px;width: 450px;" asp-for="Level" class="form-control"></input>
-
-            </div>
-            <div class="form-group">
-
-                <input hidden type="text" value="@Model.Phone" style="height: 140px;width: 450px;" asp-for="Phone" class="form-control"></input>
-
-            </div>
-            <div class="form-group">
-
-                <input hidden type="text" value="@Model.Photo" style="height: 140px;width: 450px;" asp-for="Photo" class="form-control"></input>
-
-            </div>
-            <div class="form-group">
-
-                <input hidden type="text" value="@Model.Name" style="height: 140px;width: 450px;" asp-for="Name" class="form-control"></input>
-
-            </div>
-            <div class="form-group">
-
-                <input hidden type="text" value="@Model.Email" style="height: 140px;width: 450px;" asp-for="Email" class="form-control"></input>
-
-            </div>
-            <div class="form-group">
-
-                <input hidden type="text" value="@Model.JobTitle" style="height: 140px;width: 450px;" asp-for="JobTitle" class="form-control"></input>
-
-            </div>
-            <div class="form-group">
-
-                <input hidden type="text" value="@Model.CoverLetter" style="height: 140px;width: 450px;" asp-for="CoverLetter" class="form-control"></input>
-
-            </div>
-            <div class="form-group">
-
-                <input hidden type="text" value="@Model.SkillName" style="height: 140px;width: 450px;" asp-for="SkillName" class="form-control"></input>
-
+                        <div class="form-group">
+                    <label asp-for="@Model.Experiences[i].Details" class="control-label"></label>
+                    <textarea asp-for="@Model.Experiences[i].Details" class="form-control" style="height: 140px;width: 450px;"></textarea>
+                    <span asp-validation-for="@Model.Experiences[i].Details" class="text-danger"></span>
             </div>
 
             
-            <div class="row" id="RadioBtn">
-                <div class="col-md-4">
-                </div>
+            }
+            @*personal info*@
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Address" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Address" class="form-control"></input>
+
             </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Phone" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Phone" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Photo" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Photo" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Name" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Name" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Email" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Email" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.JobTitle" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.JobTitle" class="form-control"></input>
+
+            </div>
+            @* cover letter*@
+            <div class="form-group">
+                <textarea hidden value="@Model.CoverLetter" style="height: 140px;width: 450px;" asp-for="@Model.CoverLetter" class="form-control"></textarea>
+
+            </div>
+          
+           @* skills*@
+            @for (int i=0; i<Model.Skill.Count; i++)
+                {
+
+                 
+                    <div class="form-group ">
+
+                    <input hidden value="@Model.Skill[i].Name" asp-for="@Model.Skill[i].Name" id="SkillName" class="form-control" style="width:100%" />
+                            
+                    </div>
+
+                    <div class="form-group ">
+
+                    <input hidden value="@Model.Skill[i].Level" asp-for="@Model.Skill[i].Level" type="range" min="20" max="100" step="20" value="20" style="width:100%" />
+                            
+                    </div>
+                    
+          
+                 
+                }
+
+
 
             <div class="form-group">
                 <br />
 
-                <input type="button" value="Add" onclick="AddExperience()" name="submit" class="btn btn-primary" />
-
-                <input type="submit"  value="Next"   name="submit" class="btn btn-primary" />
+                <input type="submit"  value="Next"  class="btn btn-primary" />
             </div>
         </form>
     </div>
@@ -105,46 +118,6 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-
-    <script>
-        function AddExperience() {
-            document.getElementById("RadioBtn").insertAdjacentHTML("afterbegin",
-                `
-                        <form asp-action="Experience">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-                    <div class="form-group">
-                        <label asp-for="CompanyName" class="control-label">CompanyName</label>
-                        <input asp-for="CompanyName" class="form-control" style="width:250px" />
-                        <span asp-validation-for="CompanyName" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="JobTitle" class="control-label">JobTitle</label>
-                        <input asp-for="JobTitle" class="form-control"  style="width:250px"/>
-                        <span asp-validation-for="JobTitle" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="StartDate" class="control-label">StartDate</label>
-                        <input asp-for="StartDate" class="form-control" style="width:250px" />
-                        <span asp-validation-for="StartDate" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="EndDate" class="control-label">EndDate</label>
-                        <input asp-for="EndDate" class="form-control"  style="width:250px"/>
-                        <span asp-validation-for="EndDate" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                         <label asp-for="Details" class="control-label">Details</label>
-                        <textarea asp-for="Details" class="form-control" style="height: 140px;width: 450px;"></textarea>
-                        <span asp-validation-for="Details" class="text-danger"></span>
-                    </div>
-
-
-
-
-                        `);
-
-        }
-    </script>
-}
+   
+  }
 

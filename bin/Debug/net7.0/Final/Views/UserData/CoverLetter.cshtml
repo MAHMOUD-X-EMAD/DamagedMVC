@@ -1,5 +1,5 @@
 ﻿@using Final.ViewModel;
-@model CoverLetterViewModel
+@model UserData
 
 @{
     Layout = "_UserDataLayout";
@@ -10,48 +10,50 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Skill" asp-controller="userdata" method="post">
+        <form asp-action="Skill" asp-controller="UserData" >
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*cover letter*@
             <div class="form-group">
                 <label asp-for="CoverLetter" class="control-label"></label>
                 <textarea style="height: 140px;width: 450px;" asp-for="CoverLetter" class="form-control"></textarea>
                 <span asp-validation-for="CoverLetter" class="text-danger"></span>
             </div>
+            @*personal info*@
             <div class="form-group">
                 
-                <input hidden type="text" value="@Model.Address" style="height: 140px;width: 450px;" asp-for="Address" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Address" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Address" class="form-control"></input>
 
             </div>
             <div class="form-group">
                 
-                <input hidden type="text" value="@Model.Phone" style="height: 140px;width: 450px;" asp-for="Phone" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Phone" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Phone" class="form-control"></input>
 
             </div>
             <div class="form-group">
                 
-                <input hidden type="text" value="@Model.Photo" style="height: 140px;width: 450px;" asp-for="Photo" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Photo" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Photo" class="form-control"></input>
 
             </div>
             <div class="form-group">
                 
-                <input hidden type="text" value="@Model.Name" style="height: 140px;width: 450px;" asp-for="Name" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Name" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Name" class="form-control"></input>
 
             </div>
             <div class="form-group">
                 
-                <input hidden type="text" value="@Model.Email" style="height: 140px;width: 450px;" asp-for="Email" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Email" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Email" class="form-control"></input>
                 
             </div>
             <div class="form-group">
                 
-                <input hidden type="text" value="@Model.JobTitle" style="height: 140px;width: 450px;" asp-for="JobTitle" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.JobTitle" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.JobTitle" class="form-control"></input>
 
             </div>
             
             
             <div class="form-group">
                 <br />
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Next" class="btn btn-primary" />
             </div>
         </form>
     </div>

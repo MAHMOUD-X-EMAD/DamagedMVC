@@ -1,4 +1,4 @@
-﻿
+﻿@model UserData
 @{
     ViewData["Title"] = "Template6";
     Layout = "_Layout";
@@ -32,7 +32,10 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 
+
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/linkedin?f=brands&s=solid" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/github?f=brands&s=solid" rel="stylesheet">
     <link href="/css/template6/devicons/css/devicons.min.css" rel="stylesheet">
     <link href="/css/template6/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link href="/css/template6/style.css" rel="stylesheet">
@@ -47,29 +50,37 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         ======================================================-->
         <section class="resume-section p-3 p-lg-5 d-flex d-column" id="aboutTemp6">
             <div class="my-auto">
-                <img src="/img/template6/logo-s.png" class="img-fluid mb-3" alt="">
+                <img src="/img/portfolio/@Model.PersonalInfo.Photo" style="width: 210px;   border: 6px solid cornflowerblue;" class="img-fluid mb-3" alt="">
                 <h1>
-                    Johndon
-                    <span class="text-primary">Bonsen</span>
+                    @Model.PersonalInfo.Name
                 </h1>
                 <div class="subheading mb-5">
-                    THE NEXT BIG IDEA IS WAITING FOR ITS NEXT BIG CHANGER WITH THEMSBIT
+                    <h3>  @Model.PersonalInfo.JobTitle  </h3>
                 </div>
+                <div>
 
+                                    <a href="@Model.Links.GitHub" target="_blank"><i style="font-size:34px;    margin: 15px;color:black" class="fa-brands fa-github"></i></a>
+                                    
+                                    <a href="@Model.Links.Linkedin" target="_blank"><i style="font-size:34px; color:blue;" class="fa-brands fa-linkedin"></i></a>
+                                    
+                                </div>
 
 
             </div>
         </section>
 
+        <div style="transform: translate(-451px, 90px);">
+            <h4>Objectives</h4>
+        </div>
         <section class="info-section d-flex d-column" style="margin-left:auto; margin-right:auto; ">
-
-            <div class="col-md-5 text-left offset-sm-1">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, harum deserunt ipsum placeat voluptatum qui et similique aliquam doloremque incidunt, consectetur, ipsa facilis porro assumenda commodi odit aut fugit itaque totam possimus recusandae! Aspernatur distinctio facilis expedita natus consectetur excepturi, sapiente quae asperiores eaque incidunt, animi vel dolorem reprehenderit maiores?
-                </p>
+            
+            <div class="col-md-5 d-flex flex-md-wrap text-left offset-sm-1">
+                
+                <p>@Model.CoverLetter</p>
             </div>
 
             <div class="col-md-5 text-left offset-md-1">
+                <h4>Personal Information</h4>
                 <div class="row mt-2">
 
                     <div class="col-sm-3">
@@ -77,7 +88,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     </div>
 
                     <div class="col-sm-7">
-                        <div class="pb-2">28</div>
+                        <div class="pb-2">@Model.PersonalInfo.Age</div>
                     </div>
 
                     <div class="col-sm-3">
@@ -85,7 +96,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     </div>
 
                     <div class="col-sm-7">
-                        <div class="pb-2">walter@company.com</div>
+                        <div class="pb-2"> <a href="mailto:@Model.PersonalInfo.Email" target="_blank">@Model.PersonalInfo.Email</a></div>
                     </div>
 
                     <div class="col-sm-3">
@@ -93,7 +104,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     </div>
 
                     <div class="col-sm-7">
-                        <div class="pb-2">+0718-111-0011</div>
+                        <div class="pb-2">@Model.PersonalInfo.Phone</div>
                     </div>
 
                     <div class="col-sm-3">
@@ -101,7 +112,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     </div>
 
                     <div class="col-sm-7">
-                        <div class="pb-2">131 W, City Center, New York, U.S.A</div>
+                        <div class="pb-2">@Model.PersonalInfo.Address</div>
                     </div>
 
                     <div class="col-sm-3">
@@ -109,7 +120,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     </div>
 
                     <div class="col-sm-7">
-                        <div class="pb-2">English, German, French</div>
+                        <div class="pb-2">@Model.PersonalInfo.Languages</div>
                     </div>
 
                 </div>
@@ -124,34 +135,71 @@ License URL: https://creativecommons.org/licenses/by/4.0/
             <div class="p-lg-5 p-3 skill-cover">
                 <h3 class="text-center text-white">Coding Skills</h3>
                 <div class="row text-center my-auto" style="margin-left:auto; margin-right:auto ">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="skill-item">
-                            <i class="fa-brands fa-html5 fa-5x"></i>
-                            <h2><span class="counter"> 84 </span><span>%</span></h2>
-                            <p>HTML5</p>
+                       @if (@Model.Skill[0].Name != null && @Model.Skill[0].Level != null)
+                                {
+                        <div class="col-md-3 col-sm-6">
+                            <div class="skill-item">
+                                <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter"> @Model.Skill[0].Level </span><span>%</span></h2>
+                                <p>@Model.Skill[0].Name</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="skill-item">
-                            <i class="fa-brands fa-css3 fa-5x"></i>
-                            <h2><span class="counter"> 95 </span><span>%</span></h2>
-                            <p>CSS3</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="skill-item">
-                            <i class="fa fa-code fa-5x"></i>
-                            <h2><span class="counter"> 65 </span><span>%</span></h2>
-                            <p>JQuery</p>
-                        </div>
-                    </div>
+                                }
+
+                       @if (@Model.Skill[1].Name != null && @Model.Skill[1].Level != null)
+                                {
                     <div class="col-md-3 col-sm-6">
                         <div class="skill-item">
                             <i class="fa fa-globe fa-5x"></i>
-                            <h2><span class="counter"> 89 </span><span>%</span></h2>
-                            <p>PHP</p>
+                            <h2><span class="counter"> @Model.Skill[1].Level </span><span>%</span></h2>
+                            <p>@Model.Skill[1].Name</p>
                         </div>
                     </div>
+                                }
+                   
+                                    @if (@Model.Skill[2].Name != null && @Model.Skill[2].Level != null)
+                                {
+                        <div class="col-md-3 col-sm-6">
+                            <div class="skill-item">
+                                <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter"> @Model.Skill[2].Level </span><span>%</span></h2>
+                                <p>@Model.Skill[2].Name</p>
+                            </div>
+                        </div>
+                                }
+                   
+                                    @if (@Model.Skill[3].Name != null && @Model.Skill[3].Level != null)
+                                {
+                        <div class="col-md-3 col-sm-6">
+                            <div class="skill-item">
+                                <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter"> @Model.Skill[3].Level </span><span>%</span></h2>
+                                <p>@Model.Skill[3].Name</p>
+                            </div>
+                        </div>
+                                }
+                     
+                                    @if (@Model.Skill[4].Name != null && @Model.Skill[4].Level != null)
+                                {
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter">@@Model.Skill[4].Level </span><span>%</span></h2>
+                            <p>@Model.Skill[4].Name</p>
+                        </div>
+                    </div>
+                                }
+
+                                    @if (@Model.Skill[5].Name != null && @Model.Skill[5].Level != null)
+                                {
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter">@@Model.Skill[5].Level </span><span>%</span></h2>
+                            <p>@Model.Skill[5].Name</p>
+                        </div>
+                    </div>
+                                }
                 </div>
             </div>
         </section>
@@ -166,26 +214,42 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     <div class="mb-5 heading-border"></div>
                 </div>
                 <div class="main-award" id="award-box">
-                    <div class="award">
-                        <div class="award-icon"></div>
-                        <div class="award-content">
-                            <span class="date">Apr 2017 - Mar 2018</span>
-                            <h5 class="title">Google Analytics Certified Developer</h5>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                            </p>
+                    
+                      @if (@Model.Experiences[0].CompanyName != null && @Model.Experiences[0].StartDate != null && @Model.Experiences[0].EndDate != null && @Model.Experiences[0].JobTitle != null && @Model.Experiences[0].Details != null)
+                    {
+                        <div class="award">
+                            <div class="award-icon"></div>
+                            <div class="award-content">
+                                <span class="date">@Model.Experiences[0].StartDate.ToShortDateString() - @Model.Experiences[0].EndDate.ToShortDateString()</span>
+                                <h4 class="title">@Model.Experiences[0].JobTitle</h4> <h3>at Company:@Model.Experiences[0].CompanyName</h3>
+                                <p class="description">@Model.Experiences[0].Details</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="award">
-                        <div class="award-icon"></div>
-                        <div class="award-content">
-                            <span class="date">Apr 2018 - Mar 2019</span>
-                            <h5 class="title">Mobile Web Specialist - Google Certification</h5>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                            </p>
+                    }
+
+                          @if (@Model.Experiences[1].CompanyName != null && @Model.Experiences[1].StartDate != null && @Model.Experiences[1].EndDate != null && @Model.Experiences[1].JobTitle != null && @Model.Experiences[1].Details != null)
+                    {
+                        <div class="award">
+                            <div class="award-icon"></div>
+                            <div class="award-content">
+                                <span class="date">@Model.Experiences[1].StartDate.ToShortDateString() - @Model.Experiences[1].EndDate.ToShortDateString()</span>
+                                <h4 class="title">@Model.Experiences[1].JobTitle</h4> <h3>at Company:@Model.Experiences[1].CompanyName</h3>
+                                <p class="description">@Model.Experiences[1].Details</p>
+                            </div>
                         </div>
-                    </div>
+                    }
+                    @if (@Model.Experiences[2].CompanyName != null && @Model.Experiences[2].StartDate != null && @Model.Experiences[2].EndDate != null && @Model.Experiences[2].JobTitle != null && @Model.Experiences[2].Details != null)
+                    {
+                        <div class="award">
+                            <div class="award-icon"></div>
+                            <div class="award-content">
+                                <span class="date">@Model.Experiences[2].StartDate.ToShortDateString() - @Model.Experiences[2].EndDate.ToShortDateString()</span>
+                                <h4 class="title">@Model.Experiences[2].JobTitle</h4> <h3>at Company:@Model.Experiences[2].CompanyName</h3>
+                                <p class="description">@Model.Experiences[2].Details</p>
+                            </div>
+                        </div>
+                    }
+
                 </div>
             </div>
         </section>
@@ -197,53 +261,53 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         <section class="resume-section p-3 p-lg-5 " id="Education" style="margin:0 auto; ">
             <div class="row my-auto" style="margin-left:auto; margin-right:auto ">
                 <div class="col-12">
-                    <h2 class="  text-center">Education</h2>
+                    <h2 class="  text-center">Projects</h2>
                     <div class="mb-5 heading-border"></div>
                 </div>
-                <div class="resume-item col-md-6 col-sm-12 ">
-                    <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                        <div class=" resume-content mr-auto">
-                            <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> Senior Web Developer</h4>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="resume-date text-md-right">
-                            <span class="text-primary">March 2019 - Present</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="resume-item col-md-6 col-sm-12">
-                    <div class="card mx-0 p-4 mb-5" style="border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                        <div class="resume-content mr-auto">
-                            <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i>  Web Developer</h4>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="resume-date text-md-right">
-                            <span class="text-primary">December 2018 - March 2019</span>
+               
+                 @if (@Model.Projects[0].Title != null && @Model.Projects[0].Description != null && @Model.Projects[0].Link != null && @Model.Projects[0].EndDate != null)
+                {
+                    <div class="resume-item col-md-6 col-sm-12 ">
+                        <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                            <div class=" resume-content mr-auto">
+                                <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> @Model.Projects[0].Title</h4>
+                                <p>@Model.Projects[0].Description.</p>
+                            </div>
+                            <div class="resume-date text-md-right">
+                                <span class="text-primary">@Model.Projects[0].EndDate.ToShortDateString()</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="resume-item col-md-6 col-sm-12">
-                    <div class="card mx-0 p-4 mb-5" style="border-color: #28a745; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                        <div class="resume-content mr-auto">
-                            <h4 class="mb-3"><i class="fa fa-camera mr-3 text-success"></i> Junior Web Designer</h4>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="resume-date text-md-right">
-                            <span class="text-primary">July 2017 - December 2018</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="resume-item col-md-6 col-sm-12">
-                    <div class="card mx-0 p-4 mb-5" style="border-color: #2196f3; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                        <div class="resume-content mr-auto">
-                            <h4 class="mb-3"><i class="fa fa-area-chart mr-3 text-primary"></i> Web Design Intern</h4>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="resume-date text-md-right">
-                            <span class="text-primary">September 2018 - June 2019</span>
+                }
+
+                 @if (@Model.Projects[1].Title != null && @Model.Projects[1].Description != null && @Model.Projects[1].Link != null && @Model.Projects[1].EndDate != null)
+                {
+                    <div class="resume-item col-md-6 col-sm-12 ">
+                        <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                            <div class=" resume-content mr-auto">
+                                <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> @Model.Projects[1].Title</h4>
+                                <p>@Model.Projects[1].Description.</p>
+                            </div>
+                            <div class="resume-date text-md-right">
+                                <span class="text-primary">@Model.Projects[1].EndDate.ToShortDateString()</span>
+                            </div>
                         </div>
                     </div>
-                </div>
+                }
+                 @if (@Model.Projects[2].Title != null && @Model.Projects[2].Description != null && @Model.Projects[2].Link != null && @Model.Projects[2].EndDate != null)
+                {
+                    <div class="resume-item col-md-6 col-sm-12 ">
+                        <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                            <div class=" resume-content mr-auto">
+                                <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> @Model.Projects[2].Title</h4>
+                                <p>@Model.Projects[2].Description.</p>
+                            </div>
+                            <div class="resume-date text-md-right">
+                                <span class="text-primary">@Model.Projects[2].EndDate.ToShortDateString()</span>
+                            </div>
+                        </div>
+                    </div>
+                }
             </div>
         </section>
 

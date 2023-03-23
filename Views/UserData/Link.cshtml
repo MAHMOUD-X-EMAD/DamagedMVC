@@ -25,36 +25,46 @@
                 <span asp-validation-for="@Model.Links.GitHub" class="text-danger"></span>
             </div>
 
-            }
+            
             @*personal info*@
             <div class="form-group">
 
-                <input hidden type="text" value="@Model.PersonalInfo.Address" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Address" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Address" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Address" class="form-control"/>
 
             </div>
             <div class="form-group">
 
-                <input hidden type="text" value="@Model.PersonalInfo.Phone" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Phone" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Age" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Age" class="form-control"/>
 
             </div>
             <div class="form-group">
 
-                <input hidden type="text" value="@Model.PersonalInfo.Photo" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Photo" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Languages" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Languages" class="form-control"/>
 
             </div>
             <div class="form-group">
 
-                <input hidden type="text" value="@Model.PersonalInfo.Name" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Name" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Phone" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Phone" class="form-control"/>
 
             </div>
             <div class="form-group">
 
-                <input hidden type="text" value="@Model.PersonalInfo.Email" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Email" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Photo" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Photo" class="form-control"/>
 
             </div>
             <div class="form-group">
 
-                <input hidden type="text" value="@Model.PersonalInfo.JobTitle" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.JobTitle" class="form-control"></input>
+                <input hidden type="text" value="@Model.PersonalInfo.Name" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Name" class="form-control"/>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Email" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Email" class="form-control"/>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.JobTitle" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.JobTitle" class="form-control"/>
 
             </div>
             @* cover letter*@
@@ -76,7 +86,7 @@
 
                 <div class="form-group ">
 
-                    <input hidden value="@Model.Skill[i].Level" asp-for="@Model.Skill[i].Level" type="range" min="20" max="100" step="20" value="20" style="width:100%" />
+                    <input hidden value="@Model.Skill[i].Level" asp-for="@Model.Skill[i].Level" type="range" min="20" max="100" step="20" style="width:100%" />
 
                 </div>
 
@@ -108,7 +118,7 @@
             @for (int i = 0; i < Model.Projects.Count; i++)
             {
                 <div class="form-group">
-                    <input hidden value="@Model.Projects[i].Title" asp-for="@Model.Projects[i].Title" class="form-control" / style="width:250px">
+                    <input hidden value="@Model.Projects[i].Title" asp-for="@Model.Projects[i].Title" class="form-control"  style="width:250px">
                 </div>
                 <div class="form-group">
                     <textarea hidden value="@Model.Projects[i].Description" asp-for="@Model.Projects[i].Description" class="form-control" style="height: 140px;width: 450px;"></textarea>

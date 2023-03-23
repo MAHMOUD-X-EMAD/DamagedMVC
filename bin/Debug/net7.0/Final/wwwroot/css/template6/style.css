@@ -179,6 +179,7 @@ a:active {
       border-bottom: 1px solid #dee2e6;
       padding-top: 5rem !important;
       padding-bottom: 5rem !important;
+     
   }
 
   section.resume-section .resume-item .resume-date {
@@ -242,8 +243,9 @@ section.info-section  {
                       ABOUT
 ====================================================*/
 #aboutTemp6 {
-    background-image: url(/img/template6/profile-banner.jpg);
-    background-size: cover;
+   
+    background-image: url(/img/template6/background_2.jpg);
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }

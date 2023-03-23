@@ -1,4 +1,4 @@
-﻿
+﻿@model UserData
 @{
     ViewData["Title"] = "Template4";
     //Layout = "_Layout";
@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="/css/template4/layout.css">
     <link rel="stylesheet" href="/css/template4/media-queries.css">
     <link rel="stylesheet" href="/css/template4/magnific-popup.css">
+    <link href="https://fontawesome.com/icons/linkedin?f=brands&s=solid" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/github?f=brands&s=solid" rel="stylesheet">
 
     <!-- Script
     ================================================== -->
@@ -48,12 +50,17 @@
         
         <div class="row banner">
             <div class="banner-text">
-                <h1 class="responsive-headline">I'm Jonathan Doe.</h1>
+                <h1 class="responsive-headline">I'm @Model.PersonalInfo.Name</h1>
                 <h3>
-                    I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-                    effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-                    and learn more <a class="smoothscroll" href="#about">about me</a>.
+                    @Model.PersonalInfo.JobTitle
                 </h3>
+                <div>
+
+                    <a href="@Model.Links.GitHub" target="_blank"><i style="font-size:34px;    margin: 15px;color:white" class="fa-brands fa-github"></i></a>
+
+                    <a href="@Model.Links.Linkedin" target="_blank"><i style="font-size:34px; color:blue" class="fa-brands fa-linkedin"></i></a>
+
+                </div>
                 <hr />
 
             </div>
@@ -72,36 +79,31 @@
 
             <div class="col-md-3 columns">
 
-                <img class="profile-pic" src="/img/template4/profilepic.jpg" alt="" />
+                <img class="profile-pic" src="/img/clients/@Model.PersonalInfo.Photo" alt="" />
 
             </div>
 
             <div class="col-md-9 columns main-col text-center">
+                
+                     <h2>About Me</h2>
 
-                <h2>About Me</h2>
-
-                <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
-                </p>
+                     <p style="color:white">
+                         @Model.CoverLetter
+                      </p>
+                
 
                 <div class="row">
 
                     <div class="columns contact-details">
 
                         <h2>Contact Details</h2>
-                        <p class="address">
-                            <span>Jonathan Doe</span><br>
+                        <p class="address" style="color:white">
+                            <span>@Model.PersonalInfo.Name</span><br>
                             <span>
-                                1600 Amphitheatre Parkway<br>
-                                Mountain View, CA 94043 US
+                                @Model.PersonalInfo.Address
                             </span><br>
-                            <span>(123)456-7890</span><br>
-                            <span>anyone@website.com</span>
+                            <span>@Model.PersonalInfo.Phone</span><br>
+                            <span><a href="mailto:@Model.PersonalInfo.Email" target="_blank">@Model.PersonalInfo.Email</a></span>
                         </p>
 
                     </div>
@@ -133,53 +135,66 @@
 
             <div class="col-md-9 columns main-col">
 
-                <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                </p>
+                
 
                 <div class="row" style="margin:50px 0;">
                     <div class="col-md-6">
-                        <div class="mb-2">
-                            <span>HTML</span>
-                            <div class="progress my-1">
-                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value" style="margin-left:10px">80%</span>
+                          @if (@Model.Skill[0].Name != null && @Model.Skill[0].Level != null)
+                        {
+                            <div class="mb-2">
+                                <span>@Model.Skill[0].Name</span>
+                                <div class="progress my-1" style="height:25px">
+                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="height:30px; width: @Model.Skill[0].Level%;"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[0].Level%</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="mb-2">
-                            <span>CSS</span>
-                            <div class="progress my-1">
-                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div><span class="progress-value" style="margin-left:10px">65%</span>
+                        }
+                          @if (@Model.Skill[1].Name != null && @Model.Skill[1].Level != null)
+                        {
+                            <div class="mb-2">
+                                <span>@Model.Skill[1].Name</span>
+                                <div class="progress my-1" style="height:25px">
+                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="height:30px; width: @Model.Skill[1].Level%;"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[1].Level%</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="mb-2">
-                            <span>JavaScript</span>
-                            <div class="progress my-1">
-                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value" style="margin-left:10px">50%</span>
+                        }
+                          @if (@Model.Skill[2].Name != null && @Model.Skill[2].Level != null)
+                        {
+                            <div class="mb-2">
+                                <span>@Model.Skill[2].Name</span>
+                                <div class="progress my-1" style="height:25px">
+                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="height:30px; width: @Model.Skill[2].Level%;"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[2].Level%</span>
+                                </div>
                             </div>
-                        </div>
+                        }
                     </div>
                     <div class="col-md-6">
-                        <div class="mb-2">
-                            <span>Adobe Photoshop</span>
-                            <div class="progress my-1">
-                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div><span class="progress-value" style="margin-left:10px">95%</span>
+                          @if (@Model.Skill[3].Name != null && @Model.Skill[3].Level != null)
+                        {
+                            <div class="mb-2">
+                                <span>@Model.Skill[3].Name</span>
+                                <div class="progress my-1" style="height:25px">
+                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="height:30px; width: @Model.Skill[3].Level%;"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[3].Level%</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="mb-2">
-                            <span>Sketch</span>
-                            <div class="progress my-1">
-                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 84%;"></div><span class="progress-value" style="margin-left:10px">84%</span>
+                        }
+                          @if (@Model.Skill[4].Name != null && @Model.Skill[4].Level != null)
+                        {
+                            <div class="mb-2">
+                                <span>@Model.Skill[4].Name</span>
+                                <div class="progress my-1" style="height:25px">
+                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="height:30px; width: @Model.Skill[4].Level%;"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[4].Level%</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="mb-2">
-                            <span>Adobe XD</span>
-                            <div class="progress my-1">
-                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value" style="margin-left:10px">70%</span>
+                        }
+                          @if (@Model.Skill[5].Name != null && @Model.Skill[5].Level != null)
+                        {
+                            <div class="mb-2">
+                                <span>@Model.Skill[5].Name</span>
+                                <div class="progress my-1" style="height:25px">
+                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="height:30px; width: @Model.Skill[5].Level%;"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[5].Level%</span>
+                                </div>
                             </div>
-                        </div>
+                        }
                     </div>
                 </div>
                 <!-- end skill-bars -->
@@ -190,7 +205,7 @@
         <!-- End skills -->
 
 
-
+        <!-- experience -->
         <div class="row experience" id="Workexperience" style="margin-right:auto;margin-left:auto;display:block;text-align:left;margin-bottom:70px">
 
             <div class="three columns header-col">
@@ -199,92 +214,129 @@
 
             <div class="nine columns main-col">
 
+                 @if (@Model.Experiences[0].CompanyName != null && @Model.Experiences[0].StartDate != null && @Model.Experiences[0].EndDate != null && @Model.Experiences[0].JobTitle != null && @Model.Experiences[0].Details != null)
+                {
+                    <div class="row item">
+
+                        <div class="twelve columns">
+
+                            <h3 style="text-align:center">@Model.Experiences[0].CompanyName</h3>
+                            <p class="info" style="text-align:center">@Model.Experiences[0].JobTitle <span>&bull;</span> <em class="date">@Model.Experiences[0].StartDate.ToShortDateString() - @Model.Experiences[0].EndDate.ToShortDateString()</em></p>
+
+                            <p>
+                                @Model.Experiences[0].Details
+                            </p>
+
+                        </div>
+
+                    </div> <!-- item end -->
+                }
+                 @if (@Model.Experiences[1].CompanyName != null && @Model.Experiences[1].StartDate != null && @Model.Experiences[1].EndDate != null && @Model.Experiences[1].JobTitle != null && @Model.Experiences[1].Details != null)
+                    {
+
                 <div class="row item">
 
                     <div class="twelve columns">
 
-                        <h3 style="text-align:center">Awesome Design Studio</h3>
-                        <p class="info" style="text-align:center">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
+                        <h3 style="text-align:center">@Model.Experiences[1].CompanyName</h3>
+                        <p class="info" style="text-align:center">@Model.Experiences[1].JobTitle <span>&bull;</span> <em class="date">@Model.Experiences[1].StartDate.ToShortDateString() - @Model.Experiences[1].EndDate.ToShortDateString()</em></p>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                            @Model.Experiences[1].Details
                         </p>
 
                     </div>
 
                 </div> <!-- item end -->
+                }
 
-                <div class="row item">
+                 @if (@Model.Experiences[2].CompanyName != null && @Model.Experiences[2].StartDate != null && @Model.Experiences[2].EndDate != null && @Model.Experiences[2].JobTitle != null && @Model.Experiences[2].Details != null)
+                {
+                    <div class="row item">
 
-                    <div class="twelve columns">
+                        <div class="twelve columns">
 
-                        <h3 style="text-align:center">Super Cool Studio</h3>
-                        <p class="info" style="text-align:center">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
+                            <h3 style="text-align:center">@Model.Experiences[2].CompanyName</h3>
+                            <p class="info" style="text-align:center">@Model.Experiences[2].JobTitle <span>&bull;</span> <em class="date">@Model.Experiences[2].StartDate.ToShortDateString() - @Model.Experiences[2].EndDate.ToShortDateString()</em></p>
 
-                        <p>
-                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                        </p>
+                            <p>
+                                @Model.Experiences[2].Details
+                            </p>
 
-                    </div>
+                        </div>
 
-                </div> <!-- item end -->
+                    </div> <!-- item end -->
+                }
 
             </div> <!-- main-col end -->
 
-        </div>
+        </div><!--End Experience-->
 
+
+    
 
         <!-- Education
         ----------------------------------------------- -->
         <div class="row education" id="education" style="margin-right:auto;margin-left:auto;display:block;text-align:left">
 
             <div class="three columns header-col">
-                <h1><span>Education</span></h1>
+                <h1><span>Projects</span></h1>
             </div>
 
             <div class="nine columns main-col">
+                 @if (@Model.Projects[0].Title != null && @Model.Projects[0].Description != null && @Model.Projects[0].Link != null && @Model.Projects[0].EndDate != null)
+                {
+                    <div class="row item">
 
-                <div class="row item">
+                        <div class="twelve columns">
 
-                    <div class="twelve columns">
+                            <h3 style="text-align:center">@Model.Projects[0].Title</h3>
+                            <p class="info" style="text-align:center">@Model.Projects[0].Title <span>&bull;</span> <em class="date">@Model.Projects[0].EndDate.ToShortDateString()</em></p>
 
-                        <h3 style="text-align:center">University of Life</h3>
-                        <p class="info" style="text-align:center">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
+                            <p>
+                                @Model.Projects[0].Description
+                            </p>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                        </p>
+                        </div>
 
-                    </div>
+                    </div> <!-- item end -->
+                }
 
-                </div> <!-- item end -->
+                 @if (@Model.Projects[1].Title != null && @Model.Projects[1].Description != null && @Model.Projects[1].Link != null && @Model.Projects[1].EndDate != null)
+                {
+                    <div class="row item">
 
-                <div class="row item">
+                        <div class="twelve columns">
 
-                    <div class="twelve columns">
+                            <h3 style="text-align:center">@Model.Projects[1].Title</h3>
+                            <p class="info" style="text-align:center">@Model.Projects[1].Title <span>&bull;</span> <em class="date">@Model.Projects[1].EndDate.ToShortDateString()</em></p>
 
-                        <h3 style="text-align:center">School of Cool Designers</h3>
-                        <p class="info" style="text-align:center">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
+                            <p>
+                                @Model.Projects[1].Description
+                            </p>
 
-                        <p>
-                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                        </p>
+                        </div>
 
-                    </div>
+                    </div> <!-- item end -->
+                }
 
-                </div> <!-- item end -->
+                 @if (@Model.Projects[2].Title != null && @Model.Projects[2].Description != null && @Model.Projects[2].Link != null && @Model.Projects[2].EndDate != null)
+                {
+                    <div class="row item">
+
+                        <div class="twelve columns">
+
+                            <h3 style="text-align:center">@Model.Projects[2].Title</h3>
+                            <p class="info" style="text-align:center">@Model.Projects[2].Title <span>&bull;</span> <em class="date">@Model.Projects[2].EndDate.ToShortDateString()</em></p>
+
+                            <p>
+                                @Model.Projects[2].Description
+                            </p>
+
+                        </div>
+
+                    </div> <!-- item end -->
+                }
 
             </div> <!-- main-col end -->
 

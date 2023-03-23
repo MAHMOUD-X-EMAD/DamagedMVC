@@ -1,5 +1,5 @@
 ﻿@using Final.ViewModel;
-@model UserData
+@model PersonalViewModel
 
 @{
     Layout = "_UserDataLayout";
@@ -9,44 +9,53 @@
 <h1>Personal Information</h1>
 <hr />
 
-<div class="row">
-    <div class="col-md-4"> 
-        <form asp-action="coverLetter" asp-controller="UserData" >
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="row" style="height:auto">
+    <div class="col-md-4" style="height:auto">
+        <form asp-action="coverLetter" asp-controller="UserData" style="height:auto" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
 
             @*personalinfo*@
             <div class="form-group">
-                <label asp-for="@Model.PersonalInfo.Name" class="control-label"></label>
-                <input asp-for="@Model.PersonalInfo.Name" class="form-control" style="width:250px" />
-                <span asp-validation-for="@Model.PersonalInfo.Name" class="text-danger"></span>
+                <label asp-for="@Model.Name" class="control-label"></label>
+                <input asp-for="@Model.Name" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="@Model.PersonalInfo.Address" class="control-label"></label>
-                <input asp-for="@Model.PersonalInfo.Address" class="form-control" style="width:250px" />
-                <span asp-validation-for="@Model.PersonalInfo.Address" class="text-danger"></span>
+                <label asp-for="@Model.Age" class="control-label"></label>
+                <input asp-for="@Model.Age" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Address" class="control-label"></label>
+                <input asp-for="@Model.Address" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.Address" class="text-danger"></span>
             </div>
 
              <div class="form-group">
-                <label asp-for="@Model.PersonalInfo.Email" class="control-label"></label>
-                <input asp-for="@Model.PersonalInfo.Email" class="form-control" style="width:250px" />
-                <span asp-validation-for="@Model.PersonalInfo.Email" class="text-danger"></span>
+                <label asp-for="@Model.Email" class="control-label"></label>
+                <input asp-for="@Model.Email" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="@Model.PersonalInfo.Phone" class="control-label"></label>
-                <input asp-for="@Model.PersonalInfo.Phone" class="form-control" style="width:250px" />
-                <span asp-validation-for="@Model.PersonalInfo.Phone" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <label asp-for="@Model.PersonalInfo.Photo" class="control-label"></label>
-                <input asp-for="@Model.PersonalInfo.Photo" type="file" class="form-control" style="width:250px" />
-                <span asp-validation-for="@Model.PersonalInfo.Photo" class="text-danger"></span>
+                <label asp-for="@Model.Phone" class="control-label"></label>
+                <input asp-for="@Model.Phone" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.Phone" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="@Model.PersonalInfo.JobTitle" class="control-label"></label>
-                <input asp-for="@Model.PersonalInfo.JobTitle" class="form-control" style="width:250px" />
-                <span asp-validation-for="@Model.PersonalInfo.JobTitle" class="text-danger"></span>
+                <label asp-for="@Model.Photo" class="control-label"></label>
+                <input asp-for="@Model.Photo" type="file" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.Photo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Languages" class="control-label"></label>
+                <input asp-for="@Model.Languages" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.Languages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.JobTitle" class="control-label"></label>
+                <input asp-for="@Model.JobTitle" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.JobTitle" class="text-danger"></span>
             </div>
    
             <div class="form-group">

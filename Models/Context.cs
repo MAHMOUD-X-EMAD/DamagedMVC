@@ -20,7 +20,7 @@ namespace Final.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=MAHMOUD-EMAD\SQL19;Initial Catalog=CvBuilder;Integrated Security=True; trust server certificate = true");
+            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-07S7M2O;Initial Catalog=CvBuilder;Integrated Security=True; trust server certificate = true");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
